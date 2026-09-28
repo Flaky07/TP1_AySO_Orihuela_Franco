@@ -1,0 +1,185 @@
+ls
+pwd
+cd carpeta_compartida/
+ls
+cd..
+cd 
+ls
+crea
+cls
+clear
+ls -l
+mkdir clase4
+ls
+cd clase4/
+cat <<FIN > archivo1.txt
+Hola como estas FIN
+FIn
+FIN
+
+ls
+cat archivo1.txt 
+rm archivo1.txt 
+ls
+clear
+Hola como estas FIN
+clear
+cat <<FIN > archivo1.txt
+Linea1
+Linea2
+Linea3}
+Linea4
+Linea5
+FIN
+
+clear
+ls
+cd clase4/
+ls
+nano archivo1.txt 
+clear
+cd clase4/
+cat archivo1.txt 
+apt install tree
+sudo
+sudo apt install tree
+sudo apt update && apt upgrade -y
+sudo apt install tree
+exit
+nano
+pwd
+ls -l
+mkdir clase 5
+ls
+rm clase
+rm /clase
+rm ./clase
+rmdir clase
+rmdir 5
+ls
+clear
+mkdir clase5
+cd clase
+cd clase5
+clear
+mkdir facturas
+mkdir pedidos
+tree
+ls -l
+mkdir -p clientes/{facturas,pedidos}
+ls}
+clear
+ls -l
+tree
+mkdir -p {clientes/proveedores}/{facturas,pedidos}
+ls
+tree
+rmdir \{clientes/
+rmdir \{clientes/ -r
+rmdir \{clientes/ -f
+rmdir \{clientes/ -recurse 
+rmdir -r \{clientes/
+rmdir --help
+rm -rf \{clientes/
+tree
+clear
+mkdir -p {clientes,proveedores}/{facturas,pedidos}
+tree
+mkdir -p contactos/{clientes,proveedores}/{facturas,pedidos}
+tree
+mkdir -p ORIHUELA_2/{mama/{hijo1..hijo3},papa/ahijado{hijo1..hijo3}}
+tree
+rm -rf ORIHUELA_2/
+ls
+mkdir -p ORIHUELA_2/{mama/hijo{1..3},papa/ahijado,hijo{1..3}}
+tree
+rm -rf ORIHUELA_2/
+mkdir -p ORIHUELA_2/{mama/hijo{1..3},papa/hijo{1..3},ahijado}
+tree
+rm -rf ORIHUELA_2/
+mkdir -p ORIHUELA_2/{mama/hijo{1..3},papa/hijo{1..3}/ahijado}
+tree
+rm -rf ORIHUELA_2/
+mkdir -p ORIHUELA_2/{mama/hijo{1..3},papa/{ahijado},hijo{1..3}}
+tree
+rm -rf ORIHUELA_2/
+mkdir -p ORIHUELA_2/{mama/hijo{1..3},papa/{ahijado,hijo{1..3}}}
+tree
+mkdir -p
+mkdir "-p"
+ssh-keygen -t ed25519
+cat $HOME/.ssh/*.pub
+mkdir repogit
+ls
+cd repogit/
+ls
+git clone https://github.com/Flaky07/TP1_AySO_Orihuela_Franco
+cd TP1_AySO_Orihuela_Franco/
+ls -l
+cat /etc/os-release
+man grep
+grep HOME_URL /etc/os-release
+grep home_url /etc/os-release
+grep -i Home_url /etc/os-release
+grep -i Home_url /etc/os-release > datos_url.txt
+whoami
+echo "Usuario=$(whoami)" > datos_usuario.txt
+git add .
+git config --global user.email "f.orihuela00@gmail.com"
+git config --global user.name "Franco Orihuela"
+git commit -m "ADD: aegado 1er ejercicio sobre datos_usuario.txt"
+git status
+git push
+git remote set-url origin git@github.com:Flaky07/TP1_AySO_Orihuela_Franco.git
+git remote -v
+git push
+grep tail -n1 
+ls
+cd repogit/
+ls
+cd TP1_AySO_Orihuela_Franco/
+grep "model name" /proc/cpuinfo | head -n1 >>
+datos_usuario.txt
+ls
+grep "model name" /proc/cpuinfo | head -n1 >> datos_usuario.txt
+cat << EOF << README.md
+Alumno: Franco Orihuela
+Division: 212
+Turno: Tarde
+EOF
+
+cat << EOF >> README.md
+Alumno: Franco Orihuela
+Division: 212
+Turno: Tarde
+EOF
+
+cat README.md
+git add README.md datos_usuarios.txt
+ls
+cd repogit/
+ls
+cd TP1_AySO_Orihuela_Franco/
+ls
+cat README.md 
+cat << EOF >> README.md
+Alumno: Franco Orihuela
+Division: 212
+Turno: Tarde
+EOF
+
+git add README.md datos_usuarios.txt
+grep "model name" /proc/cpuinfo | head -n1 >> datos_usuario.txt
+git add README.md datos_usuario.txt
+git commit -m "ADD: Añadiendo Readme y datos de usuario"
+git push
+mkdir -p materia{1,2}/uni{1..3}
+ls
+tree
+nano script_dir.sh
+chmod 755 script_dir.sh 
+git add -
+git add .
+git commit -m "ADD: Añadiendo script"
+git push
+history -a
